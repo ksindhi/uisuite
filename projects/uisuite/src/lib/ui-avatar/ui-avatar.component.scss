@@ -3,6 +3,7 @@
     --bg: #ddd;
     --border: transparent;
     --color: black;
+    --fonSize: 14px;
     --text: normal;
     --radius: 4px;
     --size: 40px;
@@ -12,7 +13,7 @@
   background-color: var(--bg);
   color: var(--color);
   display: grid;
-  font-size: 14px;
+  font-size: var(--fontSize);
   font-weight: var(--text);
   height: var(--size);
   line-height: var(--size);
