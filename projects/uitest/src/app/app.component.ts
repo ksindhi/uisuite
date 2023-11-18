@@ -9,9 +9,10 @@ export class AppComponent {
   title = 'Atul Chauhan';
   radius = '20px';
   border = 'red';
-  background = 'red';
-  color = 'white';
+  background = 'yellow';
+  color = '#000';
   Text = 'bold';
   Style = 'circle';
   Size = '60px';
+  fSize = '60px';
 }
