@@ -3,7 +3,8 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'uis-avatar',
   templateUrl: './ui-avatar.component.html',
-  styleUrls: ['./ui-avatar.component.scss']
+  styleUrls: ['./ui-avatar.component.scss'],
+  standalone: true
 })
 export class UiAvatarComponent {
   @Input() name: string = '';
