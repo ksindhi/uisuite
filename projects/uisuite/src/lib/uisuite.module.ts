@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { UisuiteComponent } from './uisuite.component';
+import { UiAvatarComponent } from './ui-avatar/ui-avatar.component';
 
 
 
 @NgModule({
   declarations: [
-    UisuiteComponent
+    UisuiteComponent,
+    UiAvatarComponent
   ],
   imports: [
   ],
   exports: [
-    UisuiteComponent
+    UisuiteComponent,
+    UiAvatarComponent
   ]
 })
 export class UisuiteModule { }
