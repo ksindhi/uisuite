@@ -13,6 +13,7 @@ export class UiAvatarComponent {
   @Input() background?: any = '';
   @Input() color?: any = '';
   @Input() text?: any = '';
+  @Input() fontSize?: any = '';
   @Input() style?: any = 'default';
   
   getInitials(): string {

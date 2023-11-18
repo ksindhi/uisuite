@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'uitest';
+  title = 'Atul Chauhan';
+  radius = '20px';
+  border = 'red';
+  background = 'yellow';
+  color = '#000';
+  Text = 'bold';
+  Style = 'circle';
+  Size = '60px';
+  fSize = '60px';
 }
