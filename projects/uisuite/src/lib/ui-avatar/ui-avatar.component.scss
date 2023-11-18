@@ -21,6 +21,7 @@
   width: var(--size);
   white-space: nowrap;
   text-transform: uppercase;
+  overflow: hidden !important;
   &.circle {
     border-radius: 50%;
   }
