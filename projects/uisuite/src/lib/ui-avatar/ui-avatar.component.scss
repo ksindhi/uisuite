@@ -19,6 +19,7 @@
   place-content: center;
   width: var(--size);
   white-space: nowrap;
+  text-transform: uppercase;
   &.circle {
     border-radius: 50%;
   }
