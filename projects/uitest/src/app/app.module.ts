@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { UisuiteModule } from 'projects/uisuite/src/public-api';
+import { AppComponent } from './app.component'; 
+import { UiAvatarComponent } from 'projects/uisuite/src/lib/ui-avatar/ui-avatar.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { UisuiteModule } from 'projects/uisuite/src/public-api';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UisuiteModule
+    UiAvatarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
