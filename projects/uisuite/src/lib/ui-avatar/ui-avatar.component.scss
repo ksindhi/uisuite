@@ -1,0 +1,31 @@
+::ng-deep {
+  :root {
+    --bg: #ddd;
+    --border: transparent;
+    --color: black;
+    --text: normal;
+    --radius: 4px;
+    --size: 40px;
+  }
+}
+.uis-avatar {
+  background-color: var(--bg);
+  color: var(--color);
+  display: grid;
+  font-size: 14px;
+  font-weight: var(--text);
+  height: var(--size);
+  line-height: var(--size);
+  place-content: center;
+  width: var(--size);
+  white-space: nowrap;
+  &.circle {
+    border-radius: 50%;
+  }
+  &.bold {
+    font-weight: 600;
+  }
+  &.rounded {
+    border-radius: var(--radius);
+  }
+}
