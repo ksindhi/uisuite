@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { UisuiteComponent } from './uisuite.component'; 
+import { UisuiteComponent } from './uisuite.component';
 
 
 

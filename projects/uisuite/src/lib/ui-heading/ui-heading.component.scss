@@ -1,0 +1,38 @@
+:root {
+  --uisHeadingSize: 1rem;
+  --uisHeadingAlign: left;
+  --uisHeadingSpaceTop: 0;
+  --uisHeadingSpaceRight: 0;
+  --uisHeadingSpaceBottom: 0;
+  --uisHeadingSpaceLeft: 0;
+  --uiHeadingColor: inherit;
+  --uisHeadingWeight: initial;
+}
+.uis-heading {
+  color: var(--uiHeadingColor);
+  font-size: var(--uisHeadingSize);
+  font-weight: var(--uisHeadingWeight);
+  text-align: var(--uisHeadingAlign);
+  margin: var(--uisHeadingSpaceTop) var(--uisHeadingSpaceRight) var(--uisHeadingSpaceBottom) var(--uisHeadingSpaceLeft);
+  &[data-truncate="true"] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  }
+  &:is(h1) {
+    font-size: 2.5rem;
+  }
+  &:is(h2) {
+    font-size: 2.2rem;
+  }
+  &:is(h3) {
+    font-size: 1.9rem;
+  }
+  &:is(h4) {
+    font-size: 1.6rem;
+  }
+  &:is(h5) {
+    font-size: 1.3rem;
+  }
+}
