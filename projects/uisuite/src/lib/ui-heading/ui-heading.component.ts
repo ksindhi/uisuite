@@ -11,10 +11,12 @@ export class UiHeadingComponent {
   @Input() title: any = "Heading Title";
   @Input() tag: string = 'strong';
   @Input() size?: string = '1rem';
+  @Input() color?: string = 'inherit';
   @Input() truncate?: boolean = false;
   @Input() align?: string = 'left';
   @Input() spaceTop?: string = '0';
   @Input() spaceBottom?: string = '0';
   @Input() spaceRight?: string = '0';
   @Input() spaceLeft?: string = '0';
+  @Input() bold?: string = 'initial';
 }
