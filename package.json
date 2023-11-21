@@ -42,8 +42,12 @@
     "url": "git+https://github.com/ksindhi/uisuite.git"
   },
   "keywords": [
-    "ui",
-    "library"
+    "ui library",
+    "angular",
+    "angular ui library",
+    "angular frontend library",
+    "html library",
+    "ui html library"
   ],
   "author": "AKodes",
   "license": "ISC",
