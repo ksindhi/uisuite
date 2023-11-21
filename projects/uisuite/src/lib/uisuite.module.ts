@@ -8,7 +8,6 @@ import { UisuiteComponent } from './uisuite.component';
     UisuiteComponent
   ],
   imports: [
-    UiAvatarComponent
   ],
   exports: [
     UisuiteComponent
