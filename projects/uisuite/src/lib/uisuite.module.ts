@@ -5,12 +5,13 @@ import { UisuiteComponent } from './uisuite.component';
 
 @NgModule({
   declarations: [
-    UisuiteComponent 
+    UisuiteComponent
   ],
   imports: [
+    UiAvatarComponent
   ],
   exports: [
-    UisuiteComponent 
+    UisuiteComponent
   ]
 })
 export class UisuiteModule { }
