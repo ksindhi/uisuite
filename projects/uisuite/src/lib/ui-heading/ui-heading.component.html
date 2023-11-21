@@ -1,0 +1,50 @@
+<ng-container [ngSwitch]="tag">
+  <h1
+    *ngSwitchCase="'h1'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h1>
+  <h2
+    *ngSwitchCase="'h2'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h2>
+  <h3
+    *ngSwitchCase="'h3'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h3>
+  <h4
+    *ngSwitchCase="'h4'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h4>
+  <h5
+    *ngSwitchCase="'h5'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h5>
+  <h6
+    *ngSwitchCase="'h6'"
+    style="--uisHeadingSize: {{size}};--uisHeadingAlign: {{align}};--uisHeadingSpaceTop: {{spaceTop}};--uisHeadingSpaceBottom: {{spaceBottom}};--uisHeadingSpaceRight: {{spaceRight}};--uisHeadingSpaceLeft: {{spaceLeft}}"
+    [attr.data-truncate]="truncate"
+    class="uis-heading"
+  >
+    {{ title }}
+  </h6>
+</ng-container>

@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
+## How to Use
+
+import { UiAvatarComponent } from 'uisuite'; in your app-module.ts file. Use <uis-avatar [name]="'John Doe'"></uis-avatar>  in your component html file.
+Attributes: name, style, size, radius, border, background, color, text, fontSize
+style: default, rounded, circle <uis-avatar [name]="'John Doe'" [style]="'rounded'">
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
