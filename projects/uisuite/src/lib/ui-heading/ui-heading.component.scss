@@ -5,9 +5,13 @@
   --uisHeadingSpaceRight: 0;
   --uisHeadingSpaceBottom: 0;
   --uisHeadingSpaceLeft: 0;
+  --uiHeadingColor: inherit;
+  --uisHeadingWeight: initial;
 }
 .uis-heading {
+  color: var(--uiHeadingColor);
   font-size: var(--uisHeadingSize);
+  font-weight: var(--uisHeadingWeight);
   text-align: var(--uisHeadingAlign);
   margin: var(--uisHeadingSpaceTop) var(--uisHeadingSpaceRight) var(--uisHeadingSpaceBottom) var(--uisHeadingSpaceLeft);
   &[data-truncate="true"] {
