@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
-import { UisuiteComponent } from './uisuite.component';
-import { UiAvatarComponent } from './ui-avatar/ui-avatar.component';
+import { UisuiteComponent } from './uisuite.component'; 
 
 
 
@@ -9,7 +8,6 @@ import { UiAvatarComponent } from './ui-avatar/ui-avatar.component';
     UisuiteComponent
   ],
   imports: [
-    UiAvatarComponent
   ],
   exports: [
     UisuiteComponent
