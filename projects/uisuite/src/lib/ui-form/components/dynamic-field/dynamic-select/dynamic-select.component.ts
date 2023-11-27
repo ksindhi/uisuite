@@ -1,15 +1,18 @@
 import { AfterViewInit, Component, Input } from "@angular/core";
-import { FormGroup, FormGroupDirective } from "@angular/forms";
+import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/forms";
 import { tap, filter, iif, takeWhile } from "rxjs";
 import { MessageService } from "../../../services/message.service";
+import { CommonModule } from "@angular/common";
 
 
 @Component({
-  selector: "app-dynamic-select",
+  selector: "uis-app-dynamic-select",
   templateUrl: "./dynamic-select.component.html",
-  styleUrls: ["./dynamic-select.component.css"], 
+  styleUrls: ["./dynamic-select.component.css"],  
+  standalone:true,
+  imports:[CommonModule, ReactiveFormsModule], 
 })
-export class DynamicSelectComponent implements AfterViewInit {
+export class UiDynamicSelectComponent implements AfterViewInit {
   @Input() field: any;
   formName: FormGroup;
   alive = true;

@@ -1,12 +1,15 @@
+import { CommonModule } from "@angular/common";
 import { Component, Input, OnInit } from "@angular/core";
-import { FormGroup, FormGroupDirective } from "@angular/forms";
+import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/forms";
 
 @Component({
-  selector: "app-dynamic-radio",
+  selector: "uis-app-dynamic-radio",
   templateUrl: "./dynamic-radio.component.html",
-  styleUrls: ["./dynamic-radio.component.css"],   
+  styleUrls: ["./dynamic-radio.component.css"],  
+  standalone:true,
+  imports:[CommonModule, ReactiveFormsModule],   
 })
-export class DynamicRadioComponent {
+export class UiDynamicRadioComponent {
   @Input() field: any;
   formName: FormGroup;
 
