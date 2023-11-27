@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UisuiteModule } from 'projects/uisuite/src/public-api';
+import { UiAvatarComponent, UiHeadingComponent } from 'projects/uisuite/src/public-api';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,8 @@ import { UisuiteModule } from 'projects/uisuite/src/public-api';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UisuiteModule
+    UiAvatarComponent,
+    UiHeadingComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

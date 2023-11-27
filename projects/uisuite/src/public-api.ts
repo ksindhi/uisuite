@@ -5,3 +5,5 @@
 export * from './lib/uisuite.service';
 export * from './lib/uisuite.component';
 export * from './lib/uisuite.module';
+export * from './lib/ui-avatar/ui-avatar.component';
+export * from './lib/ui-heading/ui-heading.component';

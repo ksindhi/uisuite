@@ -1,17 +1,21 @@
-<uis-avatar [name]="title" 
-[size]="Size" 
-[style]="Style" 
-[radius]="radius" 
-[border]="border" 
-[background]="background" 
-[color]="color" 
-[fontSize]="fSize" 
-[text]="Text"></uis-avatar>
-
+<uis-avatar
+  [name]="title"
+  [size]="Size"
+  [style]="Style"
+  [radius]="radius"
+  [border]="border"
+  [background]="background"
+  [color]="color"
+  [fontSize]="fSize"
+  [text]="Text"
+></uis-avatar>
+<uis-heading
+  [tag]="'h1'"
+  [title]="'Hello World'"
+  [spaceTop]="'30px'"
+  [bold]="'600'"
+  [color]="'blue'"
+></uis-heading>
 
 <app-dynamic-form [dynamicFormGroup]="'templateform'" (newItemEvent)="onSubmit($event)" [model]="model">
-</app-dynamic-form>
-
-
-<app-dynamic-form [dynamicFormGroup]="'templateform'" (newItemEvent)="onSubmit($event)" [model]="model">
-</app-dynamic-form>
+</app-dynamic-form> 
