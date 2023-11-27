@@ -1,0 +1,7 @@
+<form [formGroup]="dynamicFormGroup" (submit)="onSubmit()">
+    <div *ngFor="let field of fields">
+        <app-field-input [field]="field"></app-field-input>
+        <app-dynamic-error [fieldName]="field.fieldName"></app-dynamic-error>
+    </div>
+    <button type="submit"> submit </button> 
+</form>
