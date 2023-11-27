@@ -16,3 +16,6 @@
   [bold]="'600'"
   [color]="'blue'"
 ></uis-heading>
+
+<app-dynamic-form [dynamicFormGroup]="'templateform'" (newItemEvent)="onSubmit($event)" [model]="model">
+</app-dynamic-form> 
