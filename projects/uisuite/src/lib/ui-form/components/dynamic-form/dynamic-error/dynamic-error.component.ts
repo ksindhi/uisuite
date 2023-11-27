@@ -1,12 +1,15 @@
+import { CommonModule, NgFor, NgIf } from "@angular/common";
 import { Component, Input, OnInit } from "@angular/core";
-import { FormGroup, FormGroupDirective } from "@angular/forms";
+import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/forms";
 
 @Component({
-  selector: "app-dynamic-error",
+  selector: "uis-app-dynamic-error",
   templateUrl: "./dynamic-error.component.html",
-  styleUrls: ["./dynamic-error.component.css"], 
+  styleUrls: ["./dynamic-error.component.css"],
+  imports:[NgIf,NgFor,CommonModule, ReactiveFormsModule],
+  standalone:true
 })
-export class DynamicErrorComponent implements OnInit {
+export class UiDynamicErrorComponent implements OnInit {
   formName: FormGroup;
   @Input() fieldName: string;
 

@@ -1,12 +1,15 @@
+import { CommonModule } from "@angular/common";
 import { Component, Input, OnInit } from "@angular/core";
-import { FormGroup, FormGroupDirective } from "@angular/forms";
+import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/forms";
 
 @Component({
-  selector: "app-dynamic-checkboxs",
+  selector: "uis-app-dynamic-checkboxs",
   templateUrl: "./dynamic-checkboxs.component.html",
-  styleUrls: ["./dynamic-checkboxs.component.css"],   
+  styleUrls: ["./dynamic-checkboxs.component.css"], 
+  imports:[CommonModule, ReactiveFormsModule],
+  standalone:true  
 })
-export class DynamicCheckboxsComponent {
+export class UiDynamicCheckboxsComponent {
   @Input() field: any;
   formName: FormGroup;
 

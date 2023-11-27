@@ -1,12 +1,17 @@
+import { CommonModule, NgFor, NgIf } from "@angular/common";
 import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
-import { FormControl, FormGroup, Validators } from "@angular/forms";
+import { FormControl, FormGroup, ReactiveFormsModule, Validators } from "@angular/forms";
+import { UiDynamicFieldComponent } from "../dynamic-field/dynamic-field.component";
+import { UiDynamicErrorComponent } from "./dynamic-error/dynamic-error.component";
 
 @Component({
-  selector: "app-dynamic-form",
+  selector: "uis-app-dynamic-form",
   templateUrl: "./dynamic-form.component.html",
-  styleUrls: ["./dynamic-form.component.css"]
+  styleUrls: ["./dynamic-form.component.css"],
+  standalone:true,  
+  imports:[NgIf,NgFor,CommonModule, ReactiveFormsModule, UiDynamicFieldComponent,UiDynamicErrorComponent],
 })
-export class DynamicFormComponent implements OnInit {
+export class UiDynamicFormComponent implements OnInit {
   @Input() model: {};
   @Input() dynamicFormGroup: any;
   @Output() newItemEvent: EventEmitter<string> = new EventEmitter<string>()

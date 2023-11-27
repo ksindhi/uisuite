@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { FormGroup } from '@angular/forms';
+import { UiDynamicFormComponent } from 'projects/uisuite/src/public-api';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'] 
 })
 export class AppComponent {
   title = 'Atul Chauhan';

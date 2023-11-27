@@ -6,43 +6,47 @@ import {
   ViewChild,
   ViewContainerRef
 } from "@angular/core";
-import {FormGroup} from "@angular/forms";
-import {DynamicInputComponent} from "./dynamic-input/dynamic-input.component";
-import {DynamicSelectComponent} from "./dynamic-select/dynamic-select.component";
-import {DynamicRadioComponent} from "./dynamic-radio/dynamic-radio.component";
-import {DynamicCheckboxsComponent} from "./dynamic-checkboxs/dynamic-checkboxs.component";
+import {FormGroup, ReactiveFormsModule} from "@angular/forms";
+import { UiDynamicCheckboxsComponent } from "./dynamic-checkboxs/dynamic-checkboxs.component";
+import { UiDynamicInputComponent } from "./dynamic-input/dynamic-input.component";
+import { UiDynamicRadioComponent } from "./dynamic-radio/dynamic-radio.component";
+import { UiDynamicSelectComponent } from "./dynamic-select/dynamic-select.component";
+import { CommonModule } from "@angular/common";
+
 
 @Component({
-  selector: "app-field-input",
+  selector: "uis-app-field-input",
   templateUrl: "./dynamic-field.component.html",
-  styleUrls: ["./dynamic-field.component.css"]
+  styleUrls: ["./dynamic-field.component.css"] ,
+  standalone:true,
+  imports:[CommonModule, ReactiveFormsModule], 
 })
-export class DynamicFieldComponent implements AfterViewInit{
+export class UiDynamicFieldComponent implements AfterViewInit{
 
   supportedDynamicComponents = [
     {
       name: 'text',
-      component: DynamicInputComponent
+      component: UiDynamicInputComponent
     },
     {
       name: 'number',
-      component: DynamicInputComponent
+      component: UiDynamicInputComponent
     },
     {
       name: 'select',
-      component: DynamicSelectComponent
+      component: UiDynamicSelectComponent
     },
     {
       name: 'radio',
-      component: DynamicRadioComponent
+      component: UiDynamicRadioComponent
     },
     {
       name: 'date',
-      component: DynamicInputComponent
+      component: UiDynamicInputComponent
     },
     {
       name: 'checkbox',
-      component: DynamicCheckboxsComponent
+      component: UiDynamicCheckboxsComponent
     }
   ]
   @ViewChild('dynamicInputContainer', { read: ViewContainerRef}) dynamicInputContainer!: ViewContainerRef;
@@ -67,7 +71,7 @@ export class DynamicFieldComponent implements AfterViewInit{
 
   getComponentByType(type: string): any {
     let componentDynamic = this.supportedDynamicComponents.find(c => c.name === type);
-    return componentDynamic.component || DynamicInputComponent;
+    return componentDynamic.component || UiDynamicInputComponent;
   }
 
 }
