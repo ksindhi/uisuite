@@ -8,7 +8,7 @@ import { CommonModule } from "@angular/common";
 @Component({
   selector: "uis-app-dynamic-select",
   templateUrl: "./dynamic-select.component.html",
-  styleUrls: ["./dynamic-select.component.css"],  
+  styleUrls: ["./dynamic-select.component.scss"],  
   standalone:true,
   imports:[CommonModule, ReactiveFormsModule], 
 })

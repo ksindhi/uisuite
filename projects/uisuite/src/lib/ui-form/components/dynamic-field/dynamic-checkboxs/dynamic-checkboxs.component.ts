@@ -5,7 +5,7 @@ import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/for
 @Component({
   selector: "uis-app-dynamic-checkboxs",
   templateUrl: "./dynamic-checkboxs.component.html",
-  styleUrls: ["./dynamic-checkboxs.component.css"], 
+  styleUrls: ["./dynamic-checkboxs.component.scss"], 
   imports:[CommonModule, ReactiveFormsModule],
   standalone:true  
 })

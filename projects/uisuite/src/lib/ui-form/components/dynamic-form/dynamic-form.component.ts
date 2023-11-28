@@ -7,7 +7,7 @@ import { UiDynamicErrorComponent } from "./dynamic-error/dynamic-error.component
 @Component({
   selector: "uis-app-dynamic-form",
   templateUrl: "./dynamic-form.component.html",
-  styleUrls: ["./dynamic-form.component.css"],
+  styleUrls: ["./dynamic-form.component.scss"],
   standalone:true,  
   imports:[NgIf,NgFor,CommonModule, ReactiveFormsModule, UiDynamicFieldComponent,UiDynamicErrorComponent],
 })

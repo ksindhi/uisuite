@@ -5,7 +5,7 @@ import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/for
 @Component({
   selector: "uis-app-dynamic-error",
   templateUrl: "./dynamic-error.component.html",
-  styleUrls: ["./dynamic-error.component.css"],
+  styleUrls: ["./dynamic-error.component.scss"],
   imports:[NgIf,NgFor,CommonModule, ReactiveFormsModule],
   standalone:true
 })

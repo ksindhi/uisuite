@@ -1,13 +1,13 @@
-<form [formGroup]="formName">
-  <label>{{ field.label }}:</label>
-
+<div [formGroup]="formName" class="uis-field">
+  <label class="uis-field-label">{{ field.label }}:</label>
   <select
     #dynamicSelect
     [formControlName]="field.fieldName"
     (change)="changedValue(dynamicSelect.value)"
+    class="uis-field-input"
   >
     <option *ngFor="let option of field.options" [value]="option.value">
       {{ option.label }}
     </option>
   </select>
-</form>
+</div>
