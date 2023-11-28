@@ -76,6 +76,7 @@ The `ui-heading` component in `uisuite` is designed to provide a customizable av
   [color]="'blue'"
 ></uis-heading>
 ```
+
 ## ui-form Component
 
 #### How to Use:
@@ -84,4 +85,3 @@ The `ui-form` component in `uisuite` is designed to provide a customizable dynam
 ### Keywords
 
 Angular, Component, UI , Heading, Library, Reusable, Web, Frontend, Angular Library, HTML, Tags, Font Size, Truncate, Alignment, Form Builder, Angular Form, Latest
-
