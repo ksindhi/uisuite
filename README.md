@@ -1,33 +1,87 @@
-# UiSuite
+# uisuite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+**A Comprehensive Angular Library for Seamless Design Integration**
 
-## How to Use
+Welcome to `uisuite`, a developer-friendly Angular library designed to simplify the process of incorporating stylish design elements into your projects. Tailored with developers in mind, `uisuite` not only provides an effortless way to integrate frontend components but also offers the convenience of utilizing components with pre-defined logic.
 
-import { UiAvatarComponent } from 'uisuite'; in your app-module.ts file. Use <uis-avatar [name]="'John Doe'"></uis-avatar>  in your component html file.
-Attributes: name, style, size, radius, border, background, color, text, fontSize
-style: default, rounded, circle <uis-avatar [name]="'John Doe'" [style]="'rounded'">
+## Key Features:
 
-## Development server
+- **Ease of Use:** Enjoy a seamless experience while adding visually appealing frontend components to your Angular projects.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Developer-Centric Design:** Crafted with developers in mind, `uisuite` prioritizes user-friendly integration and customization.
 
-## Code scaffolding
+- **Predefined Logic:** Accelerate your development process by leveraging components that come with pre-established logic.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Elevate your Angular projects with `uisuite` – where design meets functionality effortlessly.
 
-## Build
+## Available Components:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+| Component                 | Description                                                                                                                                                 |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [ui-avatar](#)   | A versatile avatar component that allows customization of name, style, size, border, radius, background, color, fontSize, and text. 
+| [ui-heading](#)   | Provides a simple display headings with options such as setting the title, choosing the heading tag, adjusting font size etc....
+| [ui-form(0.1)](#)   | Build a form using dynamic modal.
+| [more...](#)   | Layout, Table, Badge, Tooltips, Button, Form Fields, Form Builder etc....
 
-## Running unit tests
+## ui-avatar Component
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### How to Use:
 
-## Running end-to-end tests
+The `ui-avatar` component in `uisuite` is designed to provide a customizable avatar for your application. It accepts the following parameters:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- `name`: 'Required' The name or initials to be displayed in the avatar.
+- `style`: 'default', 'rounded', 'circle'.
+- `size`: The size of the avatar [Accepts only unit values e.g. 20px, 2rem etc].
+- `border`: The border Color of the avatar.
+- `radius`: The border-radius of the avatar.
+- `background`: The background color of the avatar.
+- `color`:  The text color of the avatar.
+- `fontSize`: The font size of the text in the avatar.
+- `text`: Text style of the avatar (bold, normal).
 
-## Further help
+#### Example:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```html
+<uis-avatar [name]="title" 
+[style]="rounded" 
+[size]="40px" 
+[radius]="10px" 
+[border]="blue" 
+[background]="yellow" 
+[color]="color" 
+[fontSize]="fSize" 
+[text]="Text"></uis-avatar>
+```
+## ui-heading Component
+
+#### How to Use:
+
+The `ui-heading` component in `uisuite` is designed to provide a customizable avatar for your application. It accepts the following parameters:
+
+- `tag`: 'Required' Accepts any HTML heading tag (h1, h2, h3, h4, h5, h6).
+- `title`: Accepts a string to set the heading text..
+- `size`: font size of the heading [Accepts only unit values e.g. 20px, 2rem etc].
+- `color`:  The text color of the heading.
+- `truncate`: When set to true, truncates the text with ellipsis for better UI presentation.
+- `text`: Supports text alignment options - left, center, or right.
+
+#### Example:
+
+```html
+<uis-heading
+  [tag]="'h1'"
+  [title]="'Hello World'"
+  [spaceTop]="'30px'"
+  [bold]="'600'"
+  [color]="'blue'"
+></uis-heading>
+```
+## ui-form Component
+
+#### How to Use:
+
+The `ui-form` component in `uisuite` is designed to provide a customizable dynamic form, which will hellp you render the form without writing any html and also handle error and give desired output:
+### Keywords
+
+Angular, Component, UI , Heading, Library, Reusable, Web, Frontend, Angular Library, HTML, Tags, Font Size, Truncate, Alignment, Form Builder, Angular Form, Latest
+
