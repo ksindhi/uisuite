@@ -5,7 +5,7 @@ import { UiDynamicFieldComponent } from "../dynamic-field/dynamic-field.componen
 import { UiDynamicErrorComponent } from "./dynamic-error/dynamic-error.component";
 
 @Component({
-  selector: "uis-app-dynamic-form",
+  selector: "uis-form",
   templateUrl: "./dynamic-form.component.html",
   styleUrls: ["./dynamic-form.component.scss"],
   standalone:true,  
