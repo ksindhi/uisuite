@@ -1,0 +1,13 @@
+<div [formGroup]="formName">
+  <label class="uis-checkbox" [for]="'check-'+field.fieldName">
+    <input
+      type="checkbox"
+      [name]="field.fieldName"
+      [formControlName]="field.fieldName"
+      [value]="field.value"
+      class="uis-check"
+      [id]="'check-'+field.fieldName"
+    />
+    <span class="uis-checkbox-text">{{ field.label }}</span>
+  </label>
+</div>
