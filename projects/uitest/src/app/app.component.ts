@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { UiDynamicFormComponent } from 'projects/uisuite/src/public-api';
 
 @Component({
@@ -96,5 +96,5 @@ export class AppComponent {
 event: any;
   onSubmit(event) { 
     console.log(event);
-  }
+  } 
 }

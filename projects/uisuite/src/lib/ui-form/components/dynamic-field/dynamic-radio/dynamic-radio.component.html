@@ -1,4 +1,4 @@
-<form [formGroup]="formName">
+<div [formGroup]="formName">
     <h3>{{field.label}}</h3>
     <label *ngFor="let option of field.options">
 
@@ -11,4 +11,4 @@
             {{option.label}}
         </label>
     </label>
-</form>
+</div>
