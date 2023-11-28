@@ -5,7 +5,7 @@ import { ControlContainer, FormGroup, FormGroupDirective, ReactiveFormsModule } 
 @Component({
   selector: "uis-app-dynamic-input",
   templateUrl: "./dynamic-input.component.html",
-  styleUrls: ["./dynamic-input.component.css"],  
+  styleUrls: ["./dynamic-input.component.scss"],  
   standalone:true,
   imports:[CommonModule, ReactiveFormsModule], 
   viewProviders: [

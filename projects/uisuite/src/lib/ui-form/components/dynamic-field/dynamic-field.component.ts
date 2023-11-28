@@ -17,7 +17,7 @@ import { CommonModule } from "@angular/common";
 @Component({
   selector: "uis-app-field-input",
   templateUrl: "./dynamic-field.component.html",
-  styleUrls: ["./dynamic-field.component.css"] ,
+  styleUrls: ["./dynamic-field.component.scss"] ,
   standalone:true,
   imports:[CommonModule, ReactiveFormsModule], 
 })

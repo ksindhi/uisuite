@@ -5,7 +5,7 @@ import { FormGroup, FormGroupDirective, ReactiveFormsModule } from "@angular/for
 @Component({
   selector: "uis-app-dynamic-radio",
   templateUrl: "./dynamic-radio.component.html",
-  styleUrls: ["./dynamic-radio.component.css"],  
+  styleUrls: ["./dynamic-radio.component.scss"],  
   standalone:true,
   imports:[CommonModule, ReactiveFormsModule],   
 })
