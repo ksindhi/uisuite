@@ -20,6 +20,7 @@ Elevate your Angular projects with `uisuite` – where design meets functionalit
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [ui-avatar](#)   | A versatile avatar component that allows customization of name, style, size, border, radius, background, color, fontSize, and text. 
 | [ui-heading](#)   | Provides a simple display headings with options such as setting the title, choosing the heading tag, adjusting font size etc....
+| [ui-form(0.1)](#)   | Build a form using dynamic modal.
 | [more...](#)   | Layout, Table, Badge, Tooltips, Button, Form Fields, Form Builder etc....
 
 ## ui-avatar Component
@@ -76,7 +77,11 @@ The `ui-heading` component in `uisuite` is designed to provide a customizable av
 ></uis-heading>
 ```
 
+## ui-form Component
+
+#### How to Use:
+
+The `ui-form` component in `uisuite` is designed to provide a customizable dynamic form, which will hellp you render the form without writing any html and also handle error and give desired output:
 ### Keywords
 
-Angular, Component, UI , Heading, Library, Reusable, Web, Frontend, Angular Library, HTML, Tags, Font Size, Truncate, Alignment
-
+Angular, Component, UI , Heading, Library, Reusable, Web, Frontend, Angular Library, HTML, Tags, Font Size, Truncate, Alignment, Form Builder, Angular Form, Latest
