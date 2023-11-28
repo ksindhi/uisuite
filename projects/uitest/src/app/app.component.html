@@ -10,7 +10,12 @@
   [text]="Text"
 ></uis-avatar>
 <uis-heading
-  [tag]="'h5'"
+  [tag]="'h1'"
   [title]="'Hello World'"
   [spaceTop]="'30px'"
+  [bold]="'600'"
+  [color]="'blue'"
 ></uis-heading>
+
+<uis-form [dynamicFormGroup]="'templateform'"  (newItemEvent)="onSubmit($event)" [model]="model">
+</uis-form> 

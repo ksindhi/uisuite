@@ -1,0 +1,6 @@
+<span *ngIf="formName.controls[fieldName].invalid && (formName.controls[fieldName].dirty || formName.controls[fieldName].touched)"
+     class="uis-field-error">
+    <ng-container *ngIf="formName.controls[fieldName].errors?.['required']">
+        * {{fieldName}}
+    </ng-container>
+</span>

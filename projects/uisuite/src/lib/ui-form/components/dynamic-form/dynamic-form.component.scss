@@ -1,0 +1,32 @@
+::ng-deep {
+  .uis {
+    &-field {
+      display: flex;
+      flex-direction: column;
+      &-wrap {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+      }
+      &-label {
+        font-size: 0.875rem;
+        margin-bottom: 6px;
+      }
+      &-input {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 10px 16px;
+        transition: all linear 0.2s;
+      }
+      &-error {
+        color: red;
+        font-size: 0.75rem;
+      }
+      &-submit {
+        padding: 10px 20px;
+        cursor: pointer;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
