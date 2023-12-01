@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { MessageService } from 'projects/uisuite/src/lib/ui-form/services/message.service';
 import { UiDynamicFormComponent } from 'projects/uisuite/src/public-api';
 
 @Component({
@@ -29,9 +30,16 @@ export class AppComponent {
       }
     },
     documentpath: {
-      type: "text",
+      type: "file",
       value: "",
+      file: "",
       label: "DocumentPath"
+    },
+    adharcard: {
+      type: "file",
+      value: "",
+      file: "",
+      label: "adhar card"
     },
     templatename: {
       type: "text",
@@ -94,7 +102,14 @@ export class AppComponent {
     },
   };
 event: any;
+ constructor(private messageService: MessageService )
+ {
+
+ }
   onSubmit(event) { 
+    this.messageService.message$.pipe().subscribe((v) => {
+      debugger; 
+    })
     console.log(event);
   } 
 }

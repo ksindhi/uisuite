@@ -29,6 +29,10 @@ export class UiDynamicFieldComponent implements AfterViewInit{
       component: UiDynamicInputComponent
     },
     {
+      name: 'file',
+      component: UiDynamicInputComponent
+    },
+    {
       name: 'number',
       component: UiDynamicInputComponent
     },

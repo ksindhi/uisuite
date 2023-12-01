@@ -40,11 +40,12 @@ export class UiDynamicSelectComponent implements AfterViewInit {
       filter(v => v.link === this.field.link),
       takeWhile(() => this.alive)
     ).subscribe((v) => {
+      debugger;
       this.field.options = v.data
     })
   }
 
-  changedValue(value: string) {
+  changedValue(value: string) { 
     if (!this.field.provideData) {
       return;
     }
@@ -52,5 +53,6 @@ export class UiDynamicSelectComponent implements AfterViewInit {
       link: this.field.fieldName,
       data: this.field.provideData.filter(v => v.sourceValue === value)
     })
+    debugger;
   }
 }
