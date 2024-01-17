@@ -1,5 +1,8 @@
 # uisuite
 
+```html
+Now Support Angular 17 
+```
 **A Comprehensive Angular Library for Seamless Design Integration**
 
 Welcome to `uisuite`, a developer-friendly Angular library designed to simplify the process of incorporating stylish design elements into your projects. Tailored with developers in mind, `uisuite` not only provides an effortless way to integrate frontend components but also offers the convenience of utilizing components with pre-defined logic.
@@ -76,7 +79,6 @@ The `ui-heading` component in `uisuite` is designed to provide a customizable av
   [color]="'blue'"
 ></uis-heading>
 ```
-
 ## ui-form Component
 
 #### How to Use:
@@ -85,3 +87,4 @@ The `ui-form` component in `uisuite` is designed to provide a customizable dynam
 ### Keywords
 
 Angular, Component, UI , Heading, Library, Reusable, Web, Frontend, Angular Library, HTML, Tags, Font Size, Truncate, Alignment, Form Builder, Angular Form, Latest
+
