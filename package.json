@@ -1,7 +1,6 @@
 {
   "name": "ui-suite",
-  "version": "0.0.17",
-  
+  "version": "0.0.18",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -42,7 +41,16 @@
     "type": "git",
     "url": "git+https://github.com/ksindhi/uisuite.git"
   },
-  "keywords": ["angular ui library","ui library", "angular library", "angular design library", "ui library", "uisuite", "html library", "angular frontend library"],
+  "keywords": [
+    "angular ui library",
+    "ui library",
+    "angular library",
+    "angular design library",
+    "ui library",
+    "uisuite",
+    "html library",
+    "angular frontend library"
+  ],
   "author": "AKodes",
   "license": "ISC",
   "bugs": {
