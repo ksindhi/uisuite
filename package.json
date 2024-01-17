@@ -1,6 +1,7 @@
 {
   "name": "ui-suite",
-  "version": "0.0.14",
+  "version": "0.0.17",
+  
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -22,7 +23,7 @@
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.0.10",
+    "@angular-devkit/build-angular": "^16.2.11",
     "@angular/cli": "^17.0.10",
     "@angular/compiler-cli": "^17.0.9",
     "@types/jasmine": "~4.3.0",
@@ -35,20 +36,13 @@
     "ng-packagr": "^17.1.0",
     "typescript": "~5.2.2"
   },
-  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ksindhi/uisuite.git"
   },
-  "keywords": [
-    "ui library",
-    "angular",
-    "angular ui library",
-    "angular frontend library",
-    "html library",
-    "ui html library"
-  ],
+  "keywords": ["angular ui library","ui library", "angular library", "angular design library", "ui library", "uisuite", "html library", "angular frontend library"],
   "author": "AKodes",
   "license": "ISC",
   "bugs": {
