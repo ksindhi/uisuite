@@ -1,0 +1,36 @@
+.btn {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .solid {
+    border: 1px solid transparent;
+  }
+  
+  .outline {
+    background-color: transparent;
+  }
+  
+  .primary {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  .success {
+    background-color: #2ecc71;
+    color: #ffffff;
+  }
+  
+  .danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+  }
+  
+  .info {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+ 
