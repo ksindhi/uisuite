@@ -1,7 +1,7 @@
 # uisuite
 
 ```html
-Now Support Angular 17 
+Now Support Angular 18 
 ```
 **A Comprehensive Angular Library for Seamless Design Integration**
 

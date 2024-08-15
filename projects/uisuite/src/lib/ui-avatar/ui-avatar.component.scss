@@ -22,13 +22,11 @@
   white-space: nowrap;
   text-transform: uppercase;
   overflow: hidden !important;
+  border-radius: var(--radius);
   &.circle {
     border-radius: 50%;
   }
   &.bold {
     font-weight: 600;
-  }
-  &.rounded {
-    border-radius: var(--radius);
   }
 }

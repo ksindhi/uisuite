@@ -1,0 +1,7 @@
+<div class="ui-table--container">
+    <table class="ui-table ui-table--{{theme}}" 
+           [ngClass]="[responsive ? 'res' : '', striped ? 'ui-table--striped-true' : '']">
+      <ng-content select="thead"></ng-content>
+      <ng-content select="tbody"></ng-content>
+    </table>
+  </div>

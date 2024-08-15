@@ -13,7 +13,12 @@
       "projectType": "library",
       "root": "projects/uisuite",
       "sourceRoot": "projects/uisuite/src",
-      "prefix": "lib",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "prefix": "u",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

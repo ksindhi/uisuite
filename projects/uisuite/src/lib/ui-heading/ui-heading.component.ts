@@ -1,7 +1,7 @@
 import { Component, Input } from "@angular/core"; 
 import { NgSwitch, NgSwitchCase, NgSwitchDefault } from "@angular/common"; 
 @Component({
-  selector: "uis-heading",
+  selector: "uHeading",
   templateUrl: "./ui-heading.component.html",
   styleUrls: ["./ui-heading.component.scss"],
   imports: [NgSwitch, NgSwitchCase,NgSwitchDefault],

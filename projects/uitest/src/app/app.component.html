@@ -1,21 +1,37 @@
-<uis-avatar
-  [name]="title"
-  [size]="Size"
-  [style]="Style"
-  [radius]="radius"
-  [border]="border"
-  [background]="background"
-  [color]="color"
-  [fontSize]="fSize"
-  [text]="Text"
-></uis-avatar>
-<uis-heading
+<uAvatar name="Kunal Sindhi" radius="20px" variant="circle" size="80px" fontSize="40px" background="red" color="yellow"></uAvatar> 
+<!-- <uis-heading
   [tag]="'h1'"
   [title]="'Hello World'"
   [spaceTop]="'30px'"
   [bold]="'600'"
   [color]="'blue'"
-></uis-heading>
+></uis-heading> -->
 
-<uis-form [dynamicFormGroup]="'templateform'"  (newItemEvent)="onSubmit($event)" [model]="model">
-</uis-form> 
+<uTable>
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Contact Number</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Contact Number</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>Contact Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of [0,0,0,0,0]">
+      <td>Kunal Sindhi</td>
+      <td>kkingj[at]yahoo.com</td>
+      <td>8009987654</td>
+      <td>Kunal Sindhi</td>
+      <td>kkingj[at]yahoo.com</td>
+      <td>8009987654</td>
+      <td>Kunal Sindhi</td>
+      <td>kkingj[at]yahoo.com</td>
+      <td>8009987654</td>
+    </tr>
+  </tbody>
+</uTable>

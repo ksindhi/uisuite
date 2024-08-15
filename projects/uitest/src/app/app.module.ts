@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UiAvatarComponent, UiDynamicFormComponent, UiHeadingComponent } from 'projects/uisuite/src/public-api';
+import { UiAvatarComponent, UiDynamicFormComponent, UiHeadingComponent, UiTableComponent } from 'projects/uisuite/src/public-api';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,8 @@ import { UiAvatarComponent, UiDynamicFormComponent, UiHeadingComponent } from 'p
     AppRoutingModule,
     UiAvatarComponent,
     UiHeadingComponent,
-    UiDynamicFormComponent
+    UiDynamicFormComponent,
+    UiTableComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

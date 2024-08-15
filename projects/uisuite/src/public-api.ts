@@ -7,6 +7,7 @@ export * from './lib/uisuite.component';
 export * from './lib/uisuite.module';
 export * from './lib/ui-avatar/ui-avatar.component';
 export * from './lib/ui-heading/ui-heading.component';
+export * from './lib/ui-table/ui-table.component';
 
 
 export * from './lib/ui-form/components/dynamic-form/dynamic-form.component';

@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'uis-avatar',
+  selector: 'uAvatar',
   templateUrl: './ui-avatar.component.html',
   styleUrls: ['./ui-avatar.component.scss'],
   standalone: true
@@ -15,7 +15,7 @@ export class UiAvatarComponent {
   @Input() color?: any = '';
   @Input() text?: any = '';
   @Input() fontSize?: any = '';
-  @Input() style?: any = 'default';
+  @Input() variant?: 'default' | 'circle'  = 'default';
   
   getInitials(): string {
     const words = this.name.split(' ');
